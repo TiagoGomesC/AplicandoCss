@@ -1,0 +1,15 @@
+/* Logo em Imagem */
+
+
+.form-group input:focus {
+    border-color: #8b5cf6;
+    box-shadow: 0 0 0 3px rgba(8, 6, 13, 0.2);
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #141415;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
