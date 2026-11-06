@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudioWear</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Alice&family=Redaction+10:ital,wght@0,400;0,700;1,400&family=Unbounded:wght@200..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            .alice-regular {
+            font-family: "Alice", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+        }
+
+        th,
+        td {
+            border: 1px solid #bfbcbc;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        .header-titulo {
+            background-color: #473ea5;
+            color: white;
+            text-align: center;
+        }
+    </style>
+    </head>
+
+    <body>
+
+        <h2>Planilha Colaboladores</h2>
+
+        <table>
+            <thead>
+                <!-- Linha que mistura todas as 5 colunas com colspan -->
+                <tr>
+                    <!-- o colspan e tambem seria o titulo e o class ajudam no css -->
+                    <th colspan="5" class="header-titulo">StudioWear - Quadro de funcionarios</th>
+                </tr>
+                <!-- Cabeçalho das colunas -->
+                <tr>
+                    <th>Matrícula</th>
+                    <th>Nome</th>
+                    <th>Setor</th>
+                    <th>Cargo</th>
+                    <th>E-mail</th>
+                </tr>
+                <!--Cabecalho da tabela-->
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>Tiago Gomes</td>
+                    <!-- <rowspan> para mesclar o setor com a linha de baixo -->
+                    <td rowspan="2">Criação & Design</td>
+                    <td>Estilista Sênior & CEO</td>
+                    <td>gomestiago@StudioWear.com</td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>Mirela portugal</td>
+                    <td>Assistente de Design</td>
+                    <td>portugalmirela@StudioWear.com</td>
+                </tr>
+                    <tr>
+                    <td>003</td>
+                    <td>Rosa Lurdes</td>
+                    <td>relações Publicas</td>
+                     <td>Imagem da empresa</td>
+                    <td>lurdesrosaRP@StudioWear.com</td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>Manuela Lopes</td>
+                    <!--rowspan setor-->
+                    <td rowspan="2">Produção</td>
+                    <td>Jornalista e comunicadora</td>
+                    <td>lopesmanu@StudioWear.com</td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>Nicoli carvalho</td>
+                    <td>Florista</td>
+                    <td>floresdani@StudioWear.com</td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>Teresa Ribeiro</td>
+                    <td>Marketing</td>
+                    <td>Gerente de Moda</td>
+                    <td>ribeiroteresa@StudioWear.com</td>
+                </tr>
+                  <tr>
+                    <td>007</td>
+                    <td>Madu</td>
+                    <td>RH</td>
+                    <td>coordenadora de recursos humanos</td>
+                    <td>maduRH@StudioWear.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+
+</html>
